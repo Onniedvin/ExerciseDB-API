@@ -7,9 +7,12 @@ Tavoitteena on tutkia mitä kaikkea tällä rajapinnalla voi tehdä, sillä täm
 ## Asennus
 * Kloonaa repo
 * Luo virtuaaliympäristö
-```python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
+python -m venv venv
+source venv/bin/activate  #Windows: venv\Scripts\activate
+```
+
 * Asenna riippuvuudet
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
