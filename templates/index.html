@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise search</title>
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
 </head>
 <body>
     <h1>Exercise Search</h1>
-    <input 
-        type="text" 
-        id="search" 
-        name="q" 
-        placeholder="Hae harjoituksia"
-        hx-get="/search" 
-        hx-trigger="keyup changed delay:300ms"
-        hx-target="#results"
-    />
-    <div id="results">
-
+    <div class="search-container">
+        <input
+            type="text" 
+            id="search" 
+            name="q" 
+            placeholder="Search exercises by name"
+            hx-get="/search" 
+            hx-trigger="keyup changed delay:300ms"
+            hx-target="#results"
+        />
     </div>
+
+    <div id="results"></div>
 </body>
 </html>
