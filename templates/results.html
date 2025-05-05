@@ -2,7 +2,8 @@
 <div class="container">
     <div class="exercise-card">
         <h3 class="exercise-title">{{ exercise.name }}</h3>
-        <p class="muscles">Muscles: {{ ", ".join(exercise.targetMuscles) }}</p>
+        <p class="muscles"> <b>Primary muscles:</b> {{ ", ".join(exercise.targetMuscles) }}</p>
+        <p class="muscles"> <b>Secondary muscles:</b> {{ ", ".join(exercise.secondaryMuscles) }}</p>
         <p>Instructions:</p>
         <ul>
             {% for step in exercise.instructions %}
