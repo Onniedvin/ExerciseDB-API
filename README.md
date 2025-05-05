@@ -4,6 +4,8 @@ Projekti hakee harjoitusliikkeitä [**ExerciseDB API**](https://exercisedb-api.v
 
 Tavoitteena on tutkia mitä kaikkea tällä rajapinnalla voi tehdä, sillä tämä rupesi kiinnostamaan Hevy -sovellusta käytettyäni.
 
+**update**: API ei enää kehityksessä, joten GIFejä ei saa näkyviin. Joitain muita ominaisuuksia poistuu ehkä myös käytöstä tämän takia.
+
 ## Asennus
 * Kloonaa repo
 * Luo virtuaaliympäristö
